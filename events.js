@@ -6,7 +6,7 @@
 let section_article = document.querySelectorAll('.article-section');
 // console.log(section_article)
 let output = document.querySelector('#output-target');
-
+let input = document.querySelector('#keypress-input');
 
 
 
@@ -33,4 +33,13 @@ document.querySelector('h1').addEventListener('mouseover', function () {
 
 document.querySelector('h1').addEventListener('mouseout', function () {
     output.innerHTML = `You left me!!`
+});
+
+input.addEventListener('onkeyup', function () {
+    output.innerHTML = `${input.value}`
+
+})
+
+input.addEventListener('keyup', (e) => {
+    output.innerHTML = e.target.value;
 });
