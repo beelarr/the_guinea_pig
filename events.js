@@ -30,3 +30,7 @@ for (let i =0; i < section_article.length; i++){
 document.querySelector('h1').addEventListener('mouseover', function () {
     output.innerHTML = `You moved your mouse over the header`
 });
+
+document.querySelector('h1').addEventListener('mouseout', function () {
+    output.innerHTML = `You left me!!`
+});
