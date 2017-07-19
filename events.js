@@ -54,4 +54,9 @@ guinea_pig.addEventListener('click', () =>{
 document.querySelector('#make-large')
     .addEventListener('click', ()=>{
         guinea_pig.classList.toggle('make-big')
+    });
+
+document.querySelector('#add-border')
+    .addEventListener('click', ()=>{
+        guinea_pig.classList.toggle('capture')
     })

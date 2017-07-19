@@ -6,3 +6,7 @@
 .make-big {
     font-size: 2em;
 }
+
+.capture {
+    border: groove black 2px;
+}
