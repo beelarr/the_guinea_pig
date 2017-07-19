@@ -7,7 +7,8 @@ let section_article = document.querySelectorAll('.article-section');
 // console.log(section_article)
 let output = document.querySelector('#output-target');
 let input = document.querySelector('#keypress-input');
-
+let add_color = document.querySelector('#add-color');
+let guinea_pig = document.querySelector('#guinea-pig');
 
 
 
@@ -42,4 +43,9 @@ input.addEventListener('onkeyup', function () {
 
 input.addEventListener('keyup', (e) => {
     output.innerHTML = e.target.value;
+});
+
+
+guinea_pig.addEventListener('click', () =>{
+    guinea_pig.classList.toggle('add_color')
 });
