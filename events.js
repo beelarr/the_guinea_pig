@@ -65,3 +65,7 @@ document.querySelector('#add-rounding')
     .addEventListener('click', ()=>{
         guinea_pig.classList.toggle('rounded')
     });
+
+document.querySelectorAll('.article-section')[0].className += ' bold';
+
+document.querySelectorAll('.article-section')[5].className += ' italic bold';

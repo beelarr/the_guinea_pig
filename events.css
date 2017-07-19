@@ -1,3 +1,7 @@
+button {
+    display: block;
+}
+
 .add_color {
     color: blue;
 
@@ -13,4 +17,12 @@
 
 .rounded {
     border-radius: 20%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }
