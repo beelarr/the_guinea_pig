@@ -20,6 +20,7 @@ let guinea_pig = document.querySelector('#guinea-pig');
 
 
 
+
 for (let i =0; i < section_article.length; i++){
     section_article[i].addEventListener('click', function () {
        let section_content = section_article[i].textContent;
@@ -49,3 +50,22 @@ input.addEventListener('keyup', (e) => {
 guinea_pig.addEventListener('click', () =>{
     guinea_pig.classList.toggle('add_color')
 });
+
+document.querySelector('#make-large')
+    .addEventListener('click', ()=>{
+        guinea_pig.classList.toggle('make-big')
+    });
+
+document.querySelector('#add-border')
+    .addEventListener('click', ()=>{
+        guinea_pig.classList.toggle('capture')
+    });
+
+document.querySelector('#add-rounding')
+    .addEventListener('click', ()=>{
+        guinea_pig.classList.toggle('rounded')
+    });
+
+document.querySelectorAll('.article-section')[0].className += ' bold';
+
+document.querySelectorAll('.article-section')[5].className += ' italic bold';

@@ -1,4 +1,28 @@
+button {
+    display: block;
+}
+
 .add_color {
     color: blue;
 
+}
+
+.make-big {
+    font-size: 2em;
+}
+
+.capture {
+    border: groove black 6px;
+}
+
+.rounded {
+    border-radius: 20%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
 }
