@@ -59,4 +59,9 @@ document.querySelector('#make-large')
 document.querySelector('#add-border')
     .addEventListener('click', ()=>{
         guinea_pig.classList.toggle('capture')
-    })
+    });
+
+document.querySelector('#add-rounding')
+    .addEventListener('click', ()=>{
+        guinea_pig.classList.toggle('rounded')
+    });

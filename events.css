@@ -8,5 +8,9 @@
 }
 
 .capture {
-    border: groove black 2px;
+    border: groove black 6px;
+}
+
+.rounded {
+    border-radius: 20%;
 }
